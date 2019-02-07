@@ -1,7 +1,9 @@
 # filebeat-6.6.0-armv7
-Cross compiled filebeat-6.6.0 for ARMv7
-Elastic does not provide Filebeat binaries for ARMv7
-This proyect contains the filebeat binary cross compiled and substituted in the official filebeat 6.6.0 linux package
+Cross compiled filebeat-6.6.0 for ARMv7.
+
+Elastic does not provide Filebeat binaries for ARMv7.
+
+This proyect contains the filebeat binary cross compiled and substituted in the official filebeat 6.6.0 linux package.
 
 Filebeat can easily be cross-compiled with:
 ```
