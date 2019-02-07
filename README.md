@@ -5,7 +5,7 @@ Elastic does not provide Filebeat binaries for ARMv7.
 
 This proyect contains the filebeat binary cross compiled and substituted in the official filebeat 6.6.0 linux package.
 
-Filebeat can easily be cross-compiled with:
+Filebeat can be cross-compiled with:
 ```
 # ----- Instantiate an immutable Go container for cross-compilation ----- #
 mkdir build && cd $_
