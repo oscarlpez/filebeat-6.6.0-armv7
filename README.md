@@ -1,5 +1,5 @@
 # filebeat-6.6.0-armv7
-Cross compile filebeat-6.6.0 for ARMv7
+Cross compiled filebeat-6.6.0 for ARMv7
 Elastic does not provide Filebeat binaries for ARMv7
 Filebeat can easily be cross-compiled with:
 ```
@@ -19,5 +19,5 @@ exit
 file filebeat
 #filebeat: ELF 32-bit LSB executable, ARM, EABI5 version 1 (SYSV), statically linked, not stripped
 ```
-Replace the newly built filebeat binary in the official filebeat 6.6.0 linux package
+This proyect contains the newly built filebeat binary substituted in the official filebeat 6.6.0 linux package
 https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.6.0-linux-x86_64.tar.gz
